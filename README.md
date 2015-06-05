@@ -22,6 +22,8 @@ class Main {
       var language = 'php';
     #elseif java
       var language = 'java';
+    #elseif cs
+      var language = 'cs';      
     #elseif python
       var language = 'python';
     #elseif cpp
@@ -61,6 +63,10 @@ build file
 -main Main
 --next
 -java build/java
+-lib erazor
+-main Main
+--next
+-cs build/cs
 -lib erazor
 -main Main
 --next
