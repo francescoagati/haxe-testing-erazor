@@ -11,6 +11,10 @@
 -lib erazor
 -main Main
 --next
+-cs build/cs
+-lib erazor
+-main Main
+--next
 -python build/python/main.py
 -lib erazor
 -main Main

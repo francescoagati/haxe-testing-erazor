@@ -31,14 +31,14 @@ public class Main extends haxe.lang.HxObject
 	{
 		//line 18 "/home/francesco/projects/test/tmp/Main.hx"
 		java.lang.String language = "java";
-		//line 26 "/home/francesco/projects/test/tmp/Main.hx"
-		haxe.root.TemplateHello render = new haxe.root.TemplateHello();
-		//line 27 "/home/francesco/projects/test/tmp/Main.hx"
-		render.language = language;
 		//line 28 "/home/francesco/projects/test/tmp/Main.hx"
-		render.words = haxe.lang.StringExt.split("The cat is on the table", " ");
+		haxe.root.TemplateHello render = new haxe.root.TemplateHello();
 		//line 29 "/home/francesco/projects/test/tmp/Main.hx"
-		haxe.Log.trace.__hx_invoke2_o(0.0, render.execute(), 0.0, new haxe.lang.DynamicObject(new java.lang.String[]{"className", "fileName", "methodName"}, new java.lang.Object[]{"Main", "Main.hx", "main"}, new java.lang.String[]{"lineNumber"}, new double[]{((double) (((double) (29) )) )}));
+		render.language = language;
+		//line 30 "/home/francesco/projects/test/tmp/Main.hx"
+		render.words = haxe.lang.StringExt.split("The cat is on the table", " ");
+		//line 31 "/home/francesco/projects/test/tmp/Main.hx"
+		haxe.Log.trace.__hx_invoke2_o(0.0, render.execute(), 0.0, new haxe.lang.DynamicObject(new java.lang.String[]{"className", "fileName", "methodName"}, new java.lang.Object[]{"Main", "Main.hx", "main"}, new java.lang.String[]{"lineNumber"}, new double[]{((double) (((double) (31) )) )}));
 	}
 	
 	

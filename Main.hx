@@ -16,6 +16,8 @@ class Main {
       var language = 'php';
     #elseif java
       var language = 'java';
+    #elseif cs
+      var language = 'cs';      
     #elseif python
       var language = 'python';
     #elseif cpp

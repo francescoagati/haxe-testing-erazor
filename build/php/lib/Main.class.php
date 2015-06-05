@@ -7,7 +7,7 @@ class Main {
 		$render = new TemplateHello();
 		$render->language = $language;
 		$render->words = _hx_explode(" ", "The cat is on the table");
-		haxe_Log::trace($render->execute(), _hx_anonymous(array("fileName" => "Main.hx", "lineNumber" => 29, "className" => "Main", "methodName" => "main")));
+		haxe_Log::trace($render->execute(), _hx_anonymous(array("fileName" => "Main.hx", "lineNumber" => 31, "className" => "Main", "methodName" => "main")));
 	}
 	function __toString() { return 'Main'; }
 }

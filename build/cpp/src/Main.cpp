@@ -37,23 +37,23 @@ Dynamic Main_obj::__Create(hx::DynamicArray inArgs)
 Void Main_obj::main( ){
 {
 		HX_STACK_FRAME("Main","main",0xed0e206e,"Main.main","Main.hx",10,0x087e5c05)
-		HX_STACK_LINE(22)
+		HX_STACK_LINE(24)
 		::String language = HX_HCSTRING("c++","\xc3","\x44","\x4b","\x00");		HX_STACK_VAR(language,"language");
-		HX_STACK_LINE(26)
+		HX_STACK_LINE(28)
 		::TemplateHello tmp = ::TemplateHello_obj::__new();		HX_STACK_VAR(tmp,"tmp");
-		HX_STACK_LINE(26)
+		HX_STACK_LINE(28)
 		::TemplateHello render = tmp;		HX_STACK_VAR(render,"render");
-		HX_STACK_LINE(27)
+		HX_STACK_LINE(29)
 		render->language = language;
-		HX_STACK_LINE(28)
+		HX_STACK_LINE(30)
 		Array< ::String > tmp1 = HX_HCSTRING("The cat is on the table","\x7b","\x11","\x44","\xa0").split(HX_HCSTRING(" ","\x20","\x00","\x00","\x00"));		HX_STACK_VAR(tmp1,"tmp1");
-		HX_STACK_LINE(28)
+		HX_STACK_LINE(30)
 		render->words = tmp1;
-		HX_STACK_LINE(29)
+		HX_STACK_LINE(31)
 		::String tmp2 = render->execute();		HX_STACK_VAR(tmp2,"tmp2");
-		HX_STACK_LINE(29)
-		Dynamic tmp3 = hx::SourceInfo(HX_HCSTRING("Main.hx","\x05","\x5c","\x7e","\x08"),29,HX_HCSTRING("Main","\x59","\x64","\x2f","\x33"),HX_HCSTRING("main","\x39","\x38","\x56","\x48"));		HX_STACK_VAR(tmp3,"tmp3");
-		HX_STACK_LINE(29)
+		HX_STACK_LINE(31)
+		Dynamic tmp3 = hx::SourceInfo(HX_HCSTRING("Main.hx","\x05","\x5c","\x7e","\x08"),31,HX_HCSTRING("Main","\x59","\x64","\x2f","\x33"),HX_HCSTRING("main","\x39","\x38","\x56","\x48"));		HX_STACK_VAR(tmp3,"tmp3");
+		HX_STACK_LINE(31)
 		::haxe::Log_obj::trace(tmp2,tmp3);
 	}
 return null();
