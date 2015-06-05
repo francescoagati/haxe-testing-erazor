@@ -48,3 +48,47 @@ hello from @language
 }
 
 ```
+
+build file 
+```
+-js build/js/main.js
+-lib erazor
+-main Main
+-dce full
+--next
+-php build/php
+-lib erazor
+-main Main
+--next
+-java build/java
+-lib erazor
+-main Main
+--next
+-python build/python/main.py
+-lib erazor
+-main Main
+--next
+-cpp build/cpp
+-lib erazor
+-main Main
+--next
+-neko build/neko/main.n
+-lib erazor
+-main Main
+
+```
+
+for compile all targets
+```
+haxe build.hxml
+```
+
+for run code compiled for targets 
+```
+python3.4 python/main.py
+java -jar build/java/Main.jar
+node build/js/main.js 
+php build/php/index.php 
+/build/cpp/Main
+neko build/neko/main.n 
+```
