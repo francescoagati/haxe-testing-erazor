@@ -1,0 +1,24 @@
+-js build/js/main.js
+-lib erazor
+-main Main
+-dce full
+--next
+-php build/php
+-lib erazor
+-main Main
+--next
+-java build/java
+-lib erazor
+-main Main
+--next
+-python build/python/main.py
+-lib erazor
+-main Main
+--next
+-cpp build/cpp
+-lib erazor
+-main Main
+--next
+-neko build/neko/main.n
+-lib erazor
+-main Main

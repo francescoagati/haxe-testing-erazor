@@ -1,0 +1,5 @@
+hello from @language
+
+@for (word in words) {
+  @word.toUpperCase()
+}
