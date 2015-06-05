@@ -91,4 +91,5 @@ node build/js/main.js
 php build/php/index.php 
 ./build/cpp/Main
 neko build/neko/main.n 
+./build/cs/bin/Main.exe
 ```
