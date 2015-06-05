@@ -89,6 +89,6 @@ python3.4 python/main.py
 java -jar build/java/Main.jar
 node build/js/main.js 
 php build/php/index.php 
-/build/cpp/Main
+./build/cpp/Main
 neko build/neko/main.n 
 ```
